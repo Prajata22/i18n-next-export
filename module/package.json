@@ -1,5 +1,5 @@
 {
-  "name": "next-export-i18n",
+  "name": "i18n-next-export",
   "files": [
     "./dist/index.js",
     "./dist/index.d.ts",
@@ -8,7 +8,7 @@
     "./dist/package.json"
   ],
   "main": "./dist/index.js",
-  "version": "2.3.5",
+  "version": "1.0.4",
   "description": "Internationalize next.js with true support for next export",
   "keywords": [
     "next.js",
@@ -18,7 +18,7 @@
     "export",
     "ssg"
   ],
-  "author": "Martin Krause <oss@mkrause.info> (http://mkrause.info/)",
+  "author": "Prajata Samanta <prajata@utsavapp.in>",
   "license": "MIT",
   "scripts": {
     "test": "jest --coverage",
@@ -59,10 +59,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/martinkr/next-export-i18n.git"
+    "url": "git+https://github.com/Prajata22/i18n-next-export.git"
   },
   "bugs": {
-    "url": "https://github.com/martinkr/next-export-i18n/issues"
+    "url": "https://github.com/Prajata22/i18n-next-export/issues"
   },
-  "homepage": "https://github.com/martinkr/next-export-i18n#readme"
+  "homepage": "https://github.com/Prajata22/i18n-next-export#readme",
+  "types": "./dist/index.d.ts"
 }

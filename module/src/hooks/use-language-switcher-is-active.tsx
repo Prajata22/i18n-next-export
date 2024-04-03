@@ -20,7 +20,7 @@ export default function useLanguageSwitcherIsActive(currentLang: string) {
     if (languageDataStore === LanguageDataStore.QUERY) {
       let current;
 
-      if (!router.query || !router.query.lang) {
+      if (!router.query || !router.query?.lang) {
         current = defaultLang === currentLang;
       } else {
         current = router.query?.lang === currentLang;
@@ -34,7 +34,7 @@ export default function useLanguageSwitcherIsActive(currentLang: string) {
     if (languageDataStore === LanguageDataStore.LOCAL_STORAGE) {
       let current;
       const localStorageLanguage = window.localStorage.getItem(
-        "next-export-i18n-lang"
+        "i18n-next-export-lang"
       );
       current = defaultLang === currentLang;
 

@@ -1,5 +1,5 @@
 {
-  "name": "next-export-i18n",
+  "name": "i18n-next-export",
   "files": ["index.js", "index.d.ts", "README.md", "LICENSE", "package.json"],
 
   "main": "index.js",
@@ -20,10 +20,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/martinkr/next-export-i18n.git"
+    "url": "git+https://github.com/Prajata22/i18n-next-export.git"
   },
   "bugs": {
-    "url": "https://github.com/martinkr/next-export-i18n/issues"
+    "url": "https://github.com/Prajata22/i18n-next-export/issues"
   },
-  "homepage": "https://github.com/martinkr/next-export-i18n#readme"
+  "homepage": "https://github.com/Prajata22/i18n-next-export#readme"
 }

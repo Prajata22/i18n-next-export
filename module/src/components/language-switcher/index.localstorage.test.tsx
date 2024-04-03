@@ -71,7 +71,7 @@ Object.defineProperty(window, "localStorage", {
   value: localStorageMock,
 });
 
-const langStorageId = "next-export-i18n-lang";
+const langStorageId = "i18n-next-export-lang";
 const eventType = "localStorageLangChange";
 
 jest.mock("../../hooks/use-selected-language", () => {

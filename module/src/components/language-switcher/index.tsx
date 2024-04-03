@@ -56,7 +56,7 @@ const LanguageSwitcher = ({
     }
 
     if (languageDataStore === LanguageDataStore.LOCAL_STORAGE) {
-      window.localStorage.setItem("next-export-i18n-lang", lang);
+      window.localStorage.setItem("i18n-next-export-lang", lang);
       const event = new Event("localStorageLangChange");
       document.dispatchEvent(event);
     }

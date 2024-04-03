@@ -1,4 +1,4 @@
-// import { Dictionary, I18N } from 'next-export-i18n/types';
+// import { Dictionary, I18N } from 'i18n-next-export/types';
 import { Dictionary, I18N } from "../module/src/types/index";
 
 // @ts-ignore
