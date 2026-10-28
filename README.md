@@ -1,3 +1,5 @@
+> **Note:** This package is derived from [martinkr/next-export-i18n](https://github.com/martinkr/next-export-i18n) by its original authors, adapted and published on npm as `i18n-next-export`. Credit for the original work belongs to that project; see its licence.
+
 ![i18n-next-export written over a mountain peak](i18n-next-export.png)
 
 # `i18n-next-export` [![Build Status](https://app.travis-ci.com/Prajata22/i18n-next-export.svg?branch=main)](https://app.travis-ci.com/Prajata22/i18n-next-export)
